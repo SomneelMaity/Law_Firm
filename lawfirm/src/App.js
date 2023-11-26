@@ -1,4 +1,5 @@
 import './App.css';
+import Choose from './components/Choose/Choose';
 import HeroSection from './components/HeroSection/HeroSection';
 import MainBodyTopText from './components/MainBodyTopText/MainBodyTopText';
 import Navbar from './components/Navbar/Navbar';
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
       </div>
       <MainBodyTopText />
+      <Choose />
     </div>
   );
 }
